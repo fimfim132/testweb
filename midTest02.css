@@ -1,3 +1,10 @@
+body{
+    background: red;
+    background: -webkit-linear-gradient(left, red, yellow);
+    background: -o-linear-gradient(right, red, yellow);
+    background: -moz-linear-gradient(right, red, yellow);
+    background: linear-gradient(to right, red, yellow);
+}
 
 .head{
     text-align: center;
@@ -5,6 +12,14 @@
 
 .hidden{
     display: none;
+}
+
+.car1{
+    width: 400px;
+    height: 400px;
+    border: blue solid 2px;
+    margin: 20px 20px 20px 0px;
+    background-color: white;
 }
 
 .car{
