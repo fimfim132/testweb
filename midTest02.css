@@ -1,0 +1,13 @@
+
+.head{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.car{
+    width: 200px;
+    height: 200px;
+}
